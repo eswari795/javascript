@@ -19,9 +19,10 @@ console.log(e1.getName()+ " "+e2.getName());
 
         return this.name;
     }
+    Employee.prototype.age=22;
     var e1=new Employee("Eshu");
     var e2=new Employee("Shree");
-    console.log(e1.getName()+" "+e2.getName());
+    console.log(e1.getName()+" "+e2.getName()+" "+e1.age);
     console.log(e1.constructor);
    
 })();

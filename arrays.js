@@ -27,6 +27,7 @@
     cars.pop();
     console.log(cars);
     cars.shift();
+    console.log(cars.shift());
     console.log(cars);
     cars.splice(2,0,"Lamborgini");
     console.log(cars);
